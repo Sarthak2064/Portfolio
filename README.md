@@ -24,8 +24,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone https://github.com/Sarthak2064/Portfolio.git
+cd Portfolio
 ```
 
 **Installation**
@@ -33,7 +33,7 @@ cd project_3D_developer_portfolio
 Install the project dependencies using npm:
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 **Set Up Environment Variables**
