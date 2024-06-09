@@ -1,6 +1,6 @@
-import EarthCanvas from "./Earth";
-import BallCanvas from "./Ball";
-import ComputersCanvas from "./Computers";
-import StarsCanvas from "./Stars";
+const EarthCanvas = () => import("./Earth");
+const BallCanvas = () => import("./Ball");
+const ComputersCanvas = () => import("./Computers");
+const StarsCanvas = () => import("./Stars");
 
 export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas };
